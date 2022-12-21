@@ -15,7 +15,7 @@ Random password generator including different variation preferences such as capi
 - One of the hardest fixes was, I initially made the password generator which was pretty simple all around. However, I found that when the user clicked cancel to stop the script entirely... it did not know how to get back to the beginning. 
 - Allowing the script to check if the password is 8 characters min or 128 characters max was pretty hard too. Reason being is because I just didn't know the generator needed such specification.
 
-![Alt text](https://i.imgur.com/GBa5wNy.png)
+![Alt text](https://i.imgur.com/Tlwed7i.png)
 
 Deployed website on Github Pages: https://00leee.github.io/Random-Password-Gen/
 
