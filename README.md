@@ -1,4 +1,4 @@
-# Random-Password-Gen 
+# Random-Password-Gen-Module-3
 Random password generator including different variation preferences such as capital letters, lowercase, numbers &amp; special characters. 
 
 # Authors 
@@ -21,5 +21,3 @@ Deployed website on Github Pages: https://00leee.github.io/Random-Password-Gen/
 
 # Licensed
 - This project is Licensed under the MIT License.
-
-
