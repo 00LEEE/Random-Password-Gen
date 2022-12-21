@@ -64,6 +64,6 @@ function writePassword() {
   passwordField.value = password;
 }
 
-
+// Listener for Generate click
 generateBtn.addEventListener("click", writePassword);
 
