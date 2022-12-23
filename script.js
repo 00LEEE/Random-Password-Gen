@@ -46,7 +46,7 @@ function writePassword() {
   let passwordLength = window.prompt('Enter the desired password length (between 8 and 128 characters):');
 
   // Checks if password length is less than 8 or more than 128
-  // or if the user cancels the prompt it will have you regenerate.
+  // or if the user cancels the prompt it will have you regenerate the password again.
   if (passwordLength === null || passwordLength < 8 || passwordLength > 128) {
     window.alert('Password must be between 8 & 128 characters long!');
     return;
