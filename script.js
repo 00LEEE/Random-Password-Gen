@@ -9,16 +9,16 @@ function generatePassword(length) {
   let characterSet = '';
   let password = '';
   
-  // Display password criteria.
+  // Displays password criteria.
   window.alert('The password can contain at least one of each of the following character types: lowercase letters, uppercase letters, numbers, and special characters.');
   
-  // Prompts user for preferences.
+  // Prompts user for their preferences.
   const includeLowercase = window.confirm('Include lowercase letters in the password?');
   const includeUppercase = window.confirm('Include uppercase letters in the password?');
   const includeNumbers = window.confirm('Include numbers in the password?');
   const includeSpecialCharacters = window.confirm('Include special characters in the password?');
   
-  // Character set based user's preferences.
+  // Character set based on user's preferences.
   if (includeLowercase) {
     characterSet += lowercase;
   }
@@ -42,10 +42,10 @@ function generatePassword(length) {
 }
 
 function writePassword() {
-  // Prompt user for password length.
+  // Prompts user for password length.
   let passwordLength = window.prompt('Enter the desired password length (between 8 and 128 characters):');
 
-  // Checking if password length is less than 8 or more than 128
+  // Checks if password length is less than 8 or more than 128
   // or if the user cancels the prompt it will have you regenerate.
   if (passwordLength === null || passwordLength < 8 || passwordLength > 128) {
     window.alert('Password must be between 8 & 128 characters long!');
@@ -64,6 +64,6 @@ function writePassword() {
   passwordField.value = password;
 }
 
-// Listener for Generate click
+// Listener for "Generate" click
 generateBtn.addEventListener("click", writePassword);
 
